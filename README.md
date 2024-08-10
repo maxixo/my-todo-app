@@ -15,31 +15,29 @@ Persist Tasks: Tasks are stored in the browser's localStorage, so they persist b
 Validate Form : Validate the form before adding tasks.
 
 Installation
+
+
 Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/maxixo/my-todoapp.git
 Navigate to the project directory:
 
-bash
-Copy code
+
 cd my-todoapp
 Install the dependencies:
 
-bash
-Copy code
+
 npm install
 Run the application:
 
-bash
-Copy code
+
 npm run dev
 The application will run on http://localhost:3000.
 
 Usage
+
+
 Add a Task: Use the input fields to enter a task name and description, then click the "ADD +" button.
 Edit a Task: Click the edit icon next to the task you want to edit. Modify the task details in the form that appears.
 Delete a Task: Click the delete icon next to the task you want to remove. A confirmation prompt will appear; click "OK" to confirm deletion.
 Mark as Completed: Click on the task text to toggle its completion status.
-Project Structure
